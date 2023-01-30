@@ -61,3 +61,5 @@ Microsoft Learn:  [How to use Kafka MirrorMaker 2.0 in data migration, replicati
 Kafka: [6.3 Geo-Replication (Cross-Cluster Data Mirroring)](https://kafka.apache.org/documentation/#georeplication)
 
 IBM: [Mirror Maker 2](https://ibm-cloud-architecture.github.io/refarch-eda/technology/kafka-mirrormaker/)
+
+Jason Coelho: [Geo-Replicating Kafka Data with MirrorMaker ](https://www.jasoncoelho.com/2022/01/geo-replicating-kafka-data-with.html)
