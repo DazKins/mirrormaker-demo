@@ -1,0 +1,1 @@
+$KAFKA_BIN/kafka-console-consumer.sh --bootstrap-server localhost:9093 --topic source.test-topic --from-beginning --max-messages 100
