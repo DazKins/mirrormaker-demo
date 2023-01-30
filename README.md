@@ -6,8 +6,8 @@ The scripts are written in a fairly primative way to ease understanding
 
 ## Prerequisites
 
-- An local copy of the Kafka CLI
-  - Please then set the `KAFKA_BIN` environment variable to the location of the `/bin` folder in the CLI. This is referenced in the scripts
+- An local copy of the Kafka CLI. Download from [here](https://kafka.apache.org/downloads)
+  - Then set the `KAFKA_BIN` environment variable to the location of the `/bin` folder in the CLI. This is referenced in the scripts
 
 
 ## Steps
@@ -42,6 +42,8 @@ And then finally run mirror maker in order to start the replication between the 
 
 Please take a look inside the `.sh` script files. They're not complicated at all and were made just to make documenting the steps easier.
 
+Also note the `./get-topics.sh` script which will show you the topics in each cluster. Be sure to take a look at all the topics that get auto-created by mirrormaker in each cluster.
+
 The `./kafka.*.properties` files contains all the running config for the Kafka clusters
 
 The `./zookeeper.*.properties` files contains all the running config for the Kafka clusters
@@ -51,3 +53,11 @@ These Kafka and Zookeeper configs are mostly copy and pasted from the default co
 The `./mm.properties` files contains the config for mirror maker.
 
 I won't explain the configs here as there are many other resources online, but this repo can be used as a playground.
+
+## Resources
+
+Microsoft Learn:  [How to use Kafka MirrorMaker 2.0 in data migration, replication and the use-cases](https://learn.microsoft.com/en-us/azure/hdinsight/kafka/kafka-mirrormaker-2-0-guide)
+
+Kafka: [6.3 Geo-Replication (Cross-Cluster Data Mirroring)](https://kafka.apache.org/documentation/#georeplication./)
+
+IBM: [Mirror Maker 2](https://ibm-cloud-architecture.github.io/refarch-eda/technology/kafka-mirrormaker/)
