@@ -58,6 +58,6 @@ I won't explain the configs here as there are many other resources online, but t
 
 Microsoft Learn:  [How to use Kafka MirrorMaker 2.0 in data migration, replication and the use-cases](https://learn.microsoft.com/en-us/azure/hdinsight/kafka/kafka-mirrormaker-2-0-guide)
 
-Kafka: [6.3 Geo-Replication (Cross-Cluster Data Mirroring)](https://kafka.apache.org/documentation/#georeplication./)
+Kafka: [6.3 Geo-Replication (Cross-Cluster Data Mirroring)](https://kafka.apache.org/documentation/#georeplication)
 
 IBM: [Mirror Maker 2](https://ibm-cloud-architecture.github.io/refarch-eda/technology/kafka-mirrormaker/)
